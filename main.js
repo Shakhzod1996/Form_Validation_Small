@@ -77,11 +77,11 @@ input.addEventListener('keyup', (e) => {
 
   if (inputValue.match(/[!@#$%^&*-_=+|{}:;'",./?><]/)) {
     specialP.style.color = '#fff'
-    moreX.style.display = 'none'
-    moreCheck.style.display = 'block'
+    specialX.style.display = 'none'
+    specialCheck.style.display = 'block'
   } else {
     specialP.style.color = '#999'
-    moreX.style.display = 'block'
-    moreCheck.style.display = 'none'
+    specialX.style.display = 'block'
+    specialCheck.style.display = 'none'
   }
 })
