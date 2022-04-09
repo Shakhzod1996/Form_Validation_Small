@@ -75,7 +75,7 @@ input.addEventListener('keyup', (e) => {
     numberCheck.style.display = 'none'
   }
 
-  if (inputValue.match(/[!@#$%^&*-_=+|{}:;'",./?><]/)) {
+  if (inputValue.match(/[!\@\#\$\%\^\&\*\-\_\=\+\|\{\}\:\;\'\"\,\.\/\?\>\<]/)) {
     specialP.style.color = '#fff'
     specialX.style.display = 'none'
     specialCheck.style.display = 'block'
