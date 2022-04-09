@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password</title>
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="input-container">
+      <i class='bx bxs-lock-alt'></i>
+      <input class="input" type="password" placeholder="password">
+      <div class="hide-show">
+        <i class='bx bx-show box-show'></i>
+        <i class='bx bxs-hide box-hide'></i>
+      </div>
+    </div>
+
+    <div class="cases">
+      <div class="case-in uppercase">
+        <div class="ic upper-icons">
+          <i class='bx bx-x upper-x'></i>
+          <i class='bx bx-check upper-check'></i>
+        </div>
+        <p class="upper-p">UpperCase</p>
+      </div>
+
+      <div class="case-in special-caracter">
+        <div class="ic special-icons">
+          <i class='bx bx-x special-x'></i>
+          <i class='bx bx-check special-check'></i>
+        </div>
+        <p class="special-p">Special Caracter</p>
+      </div>
+
+      <div class="case-in number">
+        <div class="ic number-icons">
+          <i class='bx bx-x number-x'></i>
+          <i class='bx bx-check number-check'></i>
+        </div>
+        <p class="number-p">Number</p>
+      </div>
+
+      <div class="case-in more">
+        <div class="ic more-icons">
+          <i class='bx bx-x more-x'></i>
+          <i class='bx bx-check more-check'></i>
+        </div>
+        <p class="more-p">More than 8 characters</p>
+      </div>
+      
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

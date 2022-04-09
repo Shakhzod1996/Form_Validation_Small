@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  min-height: 100vh;
+  background-color: rgb(66, 128, 179);
+}
+
+.input-container {
+  margin-top: 300px;
+  display: flex;
+  padding: 15px 10px;
+  background-color: rgb(23, 48, 70);
+  align-items: center;
+  width: 300px;
+  justify-content: space-between;
+}
+.input-container i {
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+
+}
+
+.input-container input {
+  padding: 5px;
+  border: none;
+  outline: none;
+  background-color: inherit;
+  font-size: 18px;
+  color: #fff;
+
+}
+
+.hide-show {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.box-show {
+  display: none;
+}
+
+.cases {
+  width: 300px;
+  background-color: rgb(23, 48, 70);
+  margin-top: 20px;
+  padding: 15px;
+  color: #fff;
+  display: none;
+
+}
+
+.cases-hide {
+  display: block;
+}
+
+.case-in  {
+  display: flex;
+  font-size: 18px;
+  align-items: center;
+  padding: 5px;
+  color: #999;
+}
+
+.ic {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.upper-check {
+  display: none;
+}
+
+.special-check {
+  display: none;
+}
+
+.number-check {
+  display: none;
+}
+
+.more-check {
+  display: none;
+}
